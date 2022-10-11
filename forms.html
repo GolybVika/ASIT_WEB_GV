@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<form>
+		<p><b>Форма 1</b></p>
+		<p><b><h2>Анкета студента</h2></b></p>
+		<b>Ваше имя:</b><input type="charset">
+		<p><b>Ваш пол:</b></p>
+		<input type="radio" name="Мужской">Мужской<br>
+		<input type="radio" name="Женский">Женский<br>
+		<p><b>На каком курсе вы учитесь?</b>
+		<input list="kurs">
+		<datalist id="kurs">
+			<option value="Первый">
+			<option value="Второй">
+			<option value="Третий">
+			<option value="Четвертый">
+		</datalist></p>
+		<b>Какие языки программирования вы знаете?</b><br>
+		<input type="checkbox" name="Паскаль"> Паскаль<br>
+		<input type="checkbox" name="C++"> C++<br>
+		<input type="checkbox" name="Java"> Java<br>
+		<input type="checkbox" name="JavaScript"> JavaScript<br>
+		<input type="checkbox" name="C#"> C#<br>
+		<p><b>Напишите несколько слов о себе:</b></p>
+		<textarea name="comment" cols="30" rows="3"></textarea><br>
+		<input type="submit" name="Отправить данные">
+		<input type="reset" name="Очистить форму">
+	</form>
+
+
+
+	<form>
+		<p><b>Форма 2</b></p>
+		Текст сообщения<span>*</span><br>
+		<textarea name="comment" cols="30" rows="3"></textarea>
+		<p>Категория обращения</p>
+		<input list="kategoria">
+		<datalist id="kategoria">
+			<option value="работа сайта"></option>
+			<option value="технические проблемы"></option>
+			<option value="работа персонала"></option>
+			<option value="хочу работать"></option>
+		</datalist>
+		<p>Ожидаемая дата ответа</p>
+		<input type="date">
+		<p>Получить ответ по телефону</p>
+		<input type="checkbox" name="да">
+		<p>Изображение (ваше фото, замечание)</p>
+		<input type="name">
+		<input type="file">
+		<p>Разделы сайта, которые вам понравились</p>
+		<select name="list" miltiple size="4">
+			<option value="каталог">каталог</option>
+			<option value="поддержка">поддержка</option>
+			<option value="партнеры">партнеры</option>
+			<option value="компания">компания</option>
+		</select>
+		<p>Вы относите себя к </p>
+		<input type="radio" name="конкурент">конкурент<br>
+		<input type="radio" name="партнер">партнер<br>
+		<input type="radio" name="клиент">клиент<br>
+	</form>
+
+
+
+	<form>
+		<p><b>Форма 3</b></p>
+		<p><b>Введите, что хотите найти:</b></p>
+		<input type="search">
+		<p><b>Выберите цвет, который вам нравится</b></p>
+		<input type="color" name="color" value="#55cc77">
+		<p><b>Введите ФИО</b></p>
+		<input type="text">
+		<p><b>Загрузите свое изображение</b></p>
+		<input type="file">
+		<p><b>Когда вы появились на свет?</b></p>
+		<input type="datetime-local">
+		<p><b>Введите электронную почту:</b></p>
+		<input type="email">
+		<p><b>А сейчас немного про ваши увлечения!!!<br><br>
+		Выберите сериалы, которые смотрели:</b></p>
+		<input type="radio">Под куполом<br>
+		<input type="radio">Бумажный дом<br>
+		<input type="radio">13 причин почему<br>
+		<input type="radio">Половое воспитание<br>
+		<input type="radio">Очень странные дела<br>
+		<p><b>Выберите чем вы увлекались или увлекаетесь:</b></p>
+		<input type="checkbox">Программирование<br>
+		<input type="checkbox">Роботостроение<br>
+		<input type="checkbox">Шитье<br>
+		<input type="checkbox">Рисование<br>
+		<input type="checkbox">Тату<br>
+		<p><b>Напишите немного про себя</b></p>
+		<textarea name="comment" cols="30" rows="3"></textarea><br>
+		<br><input type="submit" name="Отправить форму">
+		<input type="reset" name="Очистить форму">
+	</form>
+</body>
+</html>
